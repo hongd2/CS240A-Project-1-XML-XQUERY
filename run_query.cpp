@@ -1,7 +1,7 @@
 // to compile
 // g++ -o run run_query.cpp -lxqilla -lxerces-c
 // export LD_LIBRARY_PATH=/usr/local/lib
-// ./run
+// ./run <query_file_name>
 //
 #include <iostream>
 #include <xqilla/xqilla-simple.hpp>
@@ -45,19 +45,19 @@ int main(int argc, char *argv[]) {
     AutoDelete<DynamicContext> context(query->createDynamicContext());
 
     // Parse a document, and set it as the context item
-    Sequence seq = context->resolveDocument(X("v-depts.xml"));
-    if(!seq.isEmpty() && seq.first()->isNode()) {
-    context->setContextItem(seq.first());
-    context->setContextPosition(1);
-    context->setContextSize(1);
-    }
+    // Sequence seq = context->resolveDocument(X("v-depts.xml"));
+    // if(!seq.isEmpty() && seq.first()->isNode()) {
+    //     context->setContextItem(seq.first());
+    //     context->setContextPosition(1);
+    //     context->setContextSize(1);
+    // }
 
-    Sequence seq2 = context->resolveDocument(X("v-emps.xml"));
-    if(!seq2.isEmpty() && seq2.first()->isNode()) {
-    context->setContextItem(seq2.first());
-    context->setContextPosition(2);
-    context->setContextSize(1);
-    }
+    // Sequence seq2 = context->resolveDocument(X("v-emps.xml"));
+    // if(!seq2.isEmpty() && seq2.first()->isNode()) {
+    //     context->setContextItem(seq2.first());
+    //     context->setContextPosition(2);
+    //     context->setContextSize(2);
+    // }
 
     // Execute the query, using the context
     Result result = query->execute(context);
@@ -65,7 +65,7 @@ int main(int argc, char *argv[]) {
     // Iterate over the results, printing them
     Item::Ptr item;
     while(item = result->next(context)) {
-        std::cout << UTF8(item->asString(context)) << std::endl;
+        std::cout << UTF8(item->asString(context)) << std::endl << std::endl;
     }
 
     return 0;
