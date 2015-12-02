@@ -1,4 +1,4 @@
-// to compile
+// to compile and run
 // g++ -o run run_query.cpp -lxqilla -lxerces-c
 // export LD_LIBRARY_PATH=/usr/local/lib
 // ./run <query_file_name>

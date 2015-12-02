@@ -1,0 +1,81 @@
+<employees tend="9999-12-31" tstart="1985-01-01">
+  <employee tend="9999-12-31" tstart="1986-06-26">
+    <empno tend="9999-12-31" tstart="1986-06-26">10001</empno>
+    <firstname tend="9999-12-31" tstart="1986-06-26">Jack</firstname>
+    <lastname tend="9999-12-31" tstart="1986-06-26">Duck</lastname>
+    <sex tend="9999-12-31" tstart="1986-06-26">M</sex>
+    <birthdate tend="9999-12-31" tstart="1986-06-26">1953-09-02</birthdate>
+    <deptno tend="9999-12-31" tstart="1986-06-26">d005</deptno>
+    <hiredate tend="9999-12-31" tstart="1986-06-26">1991-10-17</hiredate>
+    <title tend="9999-12-31" tstart="1986-06-26">Senior Engineer</title>
+    <salary tend="1987-06-26" tstart="1986-06-26">60113</salary>
+    <salary tend="1988-06-25" tstart="1987-06-26">62102</salary>
+    <salary tend="1989-06-25" tstart="1988-06-25">66074</salary>
+    <salary tend="1990-06-25" tstart="1989-06-25">66596</salary>
+    <salary tend="1991-06-25" tstart="1990-06-25">66961</salary>
+    <salary tend="1992-06-24" tstart="1991-06-25">71046</salary>
+    <salary tend="1993-06-24" tstart="1992-06-24">74333</salary>
+    <salary tend="1994-06-24" tstart="1993-06-24">75286</salary>
+    <salary tend="1995-06-24" tstart="1994-06-24">75994</salary>
+    <salary tend="1996-06-23" tstart="1995-06-24">76884</salary>
+    <salary tend="1997-06-23" tstart="1996-06-23">80013</salary>
+    <salary tend="1998-06-23" tstart="1997-06-23">81025</salary>
+    <salary tend="1999-06-23" tstart="1998-06-23">81097</salary>
+    <salary tend="2000-06-22" tstart="1999-06-23">84917</salary>
+    <salary tend="2001-06-22" tstart="2000-06-22">85112</salary>
+    <salary tend="2002-06-22" tstart="2001-06-22">85097</salary>
+  </employee>
+  <employee tend="9999-12-31" tstart="1986-06-26">
+    <empno tend="9999-12-31" tstart="1986-06-26">10001</empno>
+    <firstname tend="9999-12-31" tstart="1986-06-26">Joe</firstname>
+    <lastname tend="9999-12-31" tstart="1986-06-26">Doe</lastname>
+    <sex tend="9999-12-31" tstart="1986-06-26">M</sex>
+    <birthdate tend="9999-12-31" tstart="1986-06-26">1953-09-02</birthdate>
+    <deptno tend="9999-12-31" tstart="1986-06-26">d005</deptno>
+    <hiredate tend="9999-12-31" tstart="1986-06-26">1991-10-17</hiredate>
+    <title tend="9999-12-31" tstart="1986-06-26">Senior Engineer</title>
+    <salary tend="1987-06-26" tstart="1986-06-26">60117</salary>
+    <salary tend="1988-06-25" tstart="1987-06-26">62102</salary>
+    <salary tend="1989-06-25" tstart="1988-06-25">66074</salary>
+    <salary tend="1990-06-25" tstart="1989-06-25">66596</salary>
+    <salary tend="1991-06-25" tstart="1990-06-25">66961</salary>
+    <salary tend="1992-06-24" tstart="1991-06-25">71046</salary>
+    <salary tend="1993-06-24" tstart="1992-06-24">74333</salary>
+    <salary tend="1994-06-24" tstart="1993-06-24">75286</salary>
+    <salary tend="1995-06-24" tstart="1994-06-24">75994</salary>
+    <salary tend="1996-06-23" tstart="1995-06-24">76884</salary>
+    <salary tend="1997-06-23" tstart="1996-06-23">80013</salary>
+    <salary tend="1998-06-23" tstart="1997-06-23">81025</salary>
+    <salary tend="1999-06-23" tstart="1998-06-23">81097</salary>
+    <salary tend="2000-06-22" tstart="1999-06-23">84917</salary>
+    <salary tend="2001-06-22" tstart="2000-06-22">85112</salary>
+    <salary tend="2002-06-22" tstart="2001-06-22">85097</salary>
+  </employee>
+  <employee tend="9999-12-31" tstart="1986-06-26">
+    <empno tend="9999-12-31" tstart="1986-06-26">10001</empno>
+    <firstname tend="9999-12-31" tstart="1986-06-26">James</firstname>
+    <lastname tend="9999-12-31" tstart="1986-06-26">Doodoo</lastname>
+    <sex tend="9999-12-31" tstart="1986-06-26">M</sex>
+    <birthdate tend="9999-12-31" tstart="1986-06-26">1953-09-02</birthdate>
+    <deptno tend="9999-12-31" tstart="1986-06-26">d005</deptno>
+    <hiredate tend="9999-12-31" tstart="1986-06-26">1991-10-17</hiredate>
+    <title tend="9999-12-31" tstart="1986-06-26">Software Engineer</title>
+    <salary tend="1986-12-26" tstart="1986-06-26">60115</salary>
+    <salary tend="1987-06-26" tstart="1986-12-26">60119</salary>
+    <salary tend="1988-06-25" tstart="1987-06-26">62102</salary>
+    <salary tend="1989-06-25" tstart="1988-06-25">66074</salary>
+    <salary tend="1990-06-25" tstart="1989-06-25">66596</salary>
+    <salary tend="1991-06-25" tstart="1990-06-25">66961</salary>
+    <salary tend="1992-06-24" tstart="1991-06-25">71046</salary>
+    <salary tend="1993-06-24" tstart="1992-06-24">74333</salary>
+    <salary tend="1994-06-24" tstart="1993-06-24">75286</salary>
+    <salary tend="1995-06-24" tstart="1994-06-24">75994</salary>
+    <salary tend="1996-06-23" tstart="1995-06-24">76884</salary>
+    <salary tend="1997-06-23" tstart="1996-06-23">80013</salary>
+    <salary tend="1998-06-23" tstart="1997-06-23">81025</salary>
+    <salary tend="1999-06-23" tstart="1998-06-23">81097</salary>
+    <salary tend="2000-06-22" tstart="1999-06-23">84917</salary>
+    <salary tend="2001-06-22" tstart="2000-06-22">85112</salary>
+    <salary tend="2002-06-22" tstart="2001-06-22">85097</salary>
+  </employee>
+</employees>

@@ -1,10 +1,18 @@
-for $mgrhist in doc("v-depts.xml")/departments/department/mgrno
-    let $dept := $mgrhist/..                                     
-    where not(xs:date($mgrhist/@tstart) > xs:date("1996-05-06")
-        or xs:date("1994-05-01") > xs:date($mgrhist/@tend))     
-return <depthist>
-        {$dept/deptno}
-        {$dept/deptname}
-        {$mgrhist}
-      </depthist>
+declare variable $period_start := "1994-05-01";
+declare variable $period_end := "1996-05-06";
 
+for $dept in doc("v-depts.xml")/departments/department
+return <depthist>                                     
+        {$dept/deptno}                                
+        {$dept/deptname}                              
+        {
+            for $mgrhist in $dept/mgrno
+                let $maxstart := max(( xs:date(data($mgrhist/@tstart)), xs:date("1994-05-01")))
+                let $minend   := min(( xs:date(data($mgrhist/@tend)), xs:date("1996-05-06")))
+                where not(xs:date(data($mgrhist/@tstart)) > xs:date("1996-05-06")
+                    or xs:date(data($mgrhist/@tend)) < xs:date("1994-05-01"))
+            return <mgrno tstart="{$maxstart}"
+		                    tend="{$minend}">
+                    {$mgrhist/text()}</mgrno>
+        }                                    
+      </depthist>  
