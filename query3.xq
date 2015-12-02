@@ -1,6 +1,3 @@
-declare variable $period_start := "1994-05-01";
-declare variable $period_end := "1996-05-06";
-
 for $dept in doc("v-depts.xml")/departments/department
 return <depthist>                                     
         {$dept/deptno}                                
